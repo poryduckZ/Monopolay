@@ -12,4 +12,8 @@ public class Board {
     public BoardSpace getSpace(int position) {
         return spaces.get(position % spaces.size());
     }
+
+    public int size() {
+        return spaces.size();
+    }
 }
